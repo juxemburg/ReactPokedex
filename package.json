@@ -19,6 +19,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "test:CI": "set CI=true&&react-scripts test",
     "release": "standard-version"
   },
   "eslintConfig": {
