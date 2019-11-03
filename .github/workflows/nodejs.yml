@@ -23,8 +23,7 @@ jobs:
       run: |
         npm ci
         npm run build --if-present
-        npm run build:dist --if-present
-        npm test --if-present
+        npm run test:CI --if-present
         git config --local user.email "tip@gha"
         git config --local user.name "GHA"
         npm run release
